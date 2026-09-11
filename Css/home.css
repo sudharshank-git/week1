@@ -337,14 +337,12 @@ footer a:hover {
             nav .navbar-items{
                 a{
                     color: black;
-                }
-                
-                background: linear-gradient(90deg, white 0%, grey 140%);
+                }  
             }
         }
     }
     #theme-toggle:checked + #screen main {
-        #service button:nth-child(1) {
+        #service .project-btn {
             background-color: black;
             color: white;
             box-shadow: 0 10px 20px -5px var(--text-muted);
